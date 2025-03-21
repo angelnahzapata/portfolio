@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #5D4037 !important; /* Café oscuro para el texto */
+    background-color: #FFF3E0 !important; /* Fondo color piel claro */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header.bg-dark {
+    background: #C5B9CD !important; /* Lavanda pastel */
+    color: #5D4037 !important; /* Café oscuro para el texto */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navegación */
+nav ul.nav {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul.nav li.nav-item {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul.nav li.nav-item a.nav-link {
+    color: #5D4037 !important; /* Café oscuro para los enlaces */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul.nav li.nav-item a.nav-link:hover {
+    color: #F7C548 !important; /* Dorado suave al hacer hover */
+}
+
+/* Secciones */
+section.section {
+    padding: 50px 0;
+    background-color: #FFF3E0 !important; /* Fondo color piel claro */
+}
+
+section.section:nth-child(even) {
+    background-color: #D0E6A5 !important; /* Verde menta pastel para secciones pares */
+}
+
+/* Botones */
+a.btn, button.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #C5B9CD !important; /* Lavanda pastel */
+    color: #5D4037 !important; /* Café oscuro para el texto */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+    border: none !important; /* Eliminar borde de Bootstrap */
+}
+
+a.btn:hover, button.btn:hover {
+    background: #F7C548 !important; /* Dorado suave al hacer hover */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Tarjetas */
+div.card {
+    background-color: #FFFFFF !important; /* Fondo blanco para las tarjetas */
+    border: 1px solid #B0BEC5 !important; /* Borde gris azulado suave */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div.card:hover {
+    transform: translateY(-5px); /* Efecto de elevación */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+}
+
+/* Footer */
+footer.bg-dark {
+    background: #5D4037 !important; /* Café oscuro para el footer */
+    color: #FFF3E0 !important; /* Texto color piel claro */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Imágenes */
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px !important; /* Bordes redondeados para las imágenes */
+}
+
+/* Iconos */
+i.fas {
+    margin-right: 8px !important; /* Espaciado entre iconos y texto */
+}
